@@ -30,7 +30,7 @@ qiita参照
 6. TimerModuleをasmdefで切る
 7. ビルドが通ることを確認する
 8. IfdefCheckModuleをasmdefで切る
-9. IfdefCheckModuleの **ScriptDefineSymbolsを設定して** 挙動の変化を確認する(DEBUGとRELEASEとASMDEFTESTを定義しています)
+9. ProjectSettingsの **ScriptDefineSymbolsを設定して** IfdefCheckModuleの挙動の変化を確認する(DEBUGとRELEASEとASMDEFTESTを定義しています)
 
 ここまで試したら、PlayModeTestをNetworkAccessModuleに対して設定して、以下のようなHttpAccesTest.csというテストスクリプトを書いて、NetworkAccessModuleのasmdefをテストのreferenceに設定して、PlayModeTestが動くことを確認する。
 ```csharp
