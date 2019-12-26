@@ -17,7 +17,7 @@ git cloneしてください
 # Usage
 
 qiita参照
- 
+
 # Step by Step Guide
 1. UtilityModuleを最初にasmdefで切る
 2. ビルドが通ることを確認する
@@ -70,6 +70,10 @@ qiita参照
         }
     }
 ```
+
+Step by stepが終わった状態のプロジェクトが
+feature/asmdef_finished ブランチにあります。
+
 
 # Author
 neon-izm 
