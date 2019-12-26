@@ -9,12 +9,12 @@ namespace AsmdefLearning.Environment
     {
         public EnvironmentCheck()
         {
-#if DEBUG
-            Debug.Log("This is Debug");            
+#if ASMDEFTEST
+            Debug.Log("This is ASMDEF");            
 #elif RELEASE
             Debug.Log("This is Release"); 
-#elif ASMDEFTEST
-            Debug.Log("This is Asmdef Test");
+#elif DEBUG
+            Debug.Log("This is Debug");
 #else
             Debug.Log("This is Some others");
 #endif
